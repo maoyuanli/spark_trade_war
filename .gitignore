@@ -1,0 +1,8 @@
+tradewarvenv/
+*.iml
+*.xml
+*.pyc
+.ipynb_checkpoints/
+code
+/coverage
+__pycache__
