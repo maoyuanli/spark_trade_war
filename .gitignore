@@ -6,3 +6,4 @@ tradewarvenv/
 code
 /coverage
 __pycache__
+token.json

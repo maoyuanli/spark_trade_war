@@ -11,8 +11,5 @@ class TestTweetFetcher:
         print(tweets)
 
     def test_tweet_query_builder(self):
-        tweet_src = ['realDonaldTrump']
-        tweet_words = ['china', 'trade']
-        tweetfetcher = TweetFetcher(tweet_src, tweet_words)
         query = self.tweetfetcher.tweet_query_builder()
         print(query)

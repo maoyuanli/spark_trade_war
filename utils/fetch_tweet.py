@@ -6,7 +6,6 @@ import json
 
 class TweetFetcher:
     tf = TokenFetcher('token.json')
-    token = tf.fetch_token('quandl_cmhc')
     api_key = tf.fetch_token('api_key')
     api_secret = tf.fetch_token('api_secret')
     access_token = tf.fetch_token('access_token')

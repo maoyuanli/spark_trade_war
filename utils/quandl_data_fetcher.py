@@ -4,7 +4,7 @@ import quandl
 
 class QuandlDataFetcher:
     tf = TokenFetcher('token.json')
-    token = tf.fetch_token('quandl_cmhc')
+    token = tf.fetch_token('quandl_key')
 
     @classmethod
     def fetch_data(cls, dataset_str):
